@@ -17,3 +17,5 @@ A new directory called "build" should have been created. Run your program by nav
 A compiler (you likely installed gcc for Project 1 - this will work for this Project as well).
 
 CMake (if you used the default environment for WSL, you will likely be able to obtain this with "sudo apt install cmake")
+
+Worked with Luke Zimmerer, Trinyon Gaylor, Ayden Whittaker.

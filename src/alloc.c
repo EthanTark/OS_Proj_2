@@ -233,7 +233,7 @@ void tufree(void *ptr) {
         abort();
     }
     free_block* blk = (free_block*)hdr; // casting to free_block
-    blk -> size = hdr ->size;
+    //blk -> size = hdr ->size;
     blk -> next = HEAD; // Fixing pointer for block
     HEAD = coalesce(blk); // Combine blocks to sow up space
 
